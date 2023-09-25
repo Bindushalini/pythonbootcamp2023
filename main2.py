@@ -8,7 +8,13 @@
 # print(random_float)
 
 # lists
-dirty_dozen = ["strawberries", "Necta" ]
-vege = ["potato", "tomato"]
-two_list = [dirty_dozen, vege]
-print(two_list)
+# dirty_dozen = ["strawberries", "Necta" ]
+# vege = ["potato", "tomato"]
+# two_list = [dirty_dozen, vege]
+# print(two_list)
+
+# Day 5
+# fruits = ["apple", "pear", "watermelon"]
+# for f in fruits:
+#     print(f)
+
