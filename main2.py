@@ -18,3 +18,8 @@
 # for f in fruits:
 #     print(f)
 
+# day6
+def abc():
+    print("world")
+abc()
+
