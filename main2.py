@@ -19,7 +19,22 @@
 #     print(f)
 
 # day6
-def abc():
-    print("world")
-abc()
+# def abc():
+#     print("world")
+# abc()
+# day 8:
+def greet(name):
+    print("I am inside greet function, hi "+name)
+    print("Second line")
+    print("ending")
+
+
+greet("poser")
+
+
+def greet(name, location):
+    print(f"inside new function of greet with arguments: name {name}, at location {location}")
+
+
+greet(name="Bindu", location="Bangalore")
 
