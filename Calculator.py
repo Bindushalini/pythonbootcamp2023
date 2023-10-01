@@ -21,7 +21,7 @@ operations = {'+': add, '-': sub, '*': mult, '/': div}
 
 
 def calculator():
-    num1 = int(input("Whats the first number?:"))
+    num1 = int(input("Whats the first num?:"))
 
     flag = "y"
     while flag == "y":
