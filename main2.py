@@ -96,15 +96,15 @@
 
 # Day 10:
 
-def format_name(first_name, last_name):
-    if first_name == "" or last_name == "":
-        return "Emptystring", "EmptyString"
-    first_name = first_name.title()
-    last_name = last_name.title()
-    return first_name, last_name
-
-
-update_f_name, update_l_name = format_name("bindu", "viGnesh")
-update_f_name, update_l_name = format_name("", "x")
-
-print(update_f_name, update_l_name)
+# def format_name(first_name, last_name):
+#     if first_name == "" or last_name == "":
+#         return "Emptystring", "EmptyString"
+#     first_name = first_name.title()
+#     last_name = last_name.title()
+#     return first_name, last_name
+#
+#
+# update_f_name, update_l_name = format_name("bindu", "viGnesh")
+# update_f_name, update_l_name = format_name("", "x")
+#
+# print(update_f_name, update_l_name)
