@@ -108,3 +108,16 @@
 # update_f_name, update_l_name = format_name("", "x")
 #
 # print(update_f_name, update_l_name)
+# Day 11
+''' Black Jack/21 game requirements:
+Aim is to reach 21.
+if sum of values of cards > 21 -> bust -> losing scenario
+2-10: face value
+Jack, king, queen - count as 10
+Ace - 1 or 11 depending on current value < or > 21
+
+if dealer ends up with < 17 , then should take another card
+
+assumptions: infinite number of cards present in deck, no removal
+
+'''
