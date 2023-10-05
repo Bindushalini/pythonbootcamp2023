@@ -5,8 +5,6 @@ cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 blackjack = 21
 
 
-
-
 def score(cards_deck):
     if 10 in cards_deck and 11 in cards_deck:
         return 0

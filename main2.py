@@ -119,5 +119,16 @@ Ace - 1 or 11 depending on current value < or > 21
 if dealer ends up with < 17 , then should take another card
 
 assumptions: infinite number of cards present in deck, no removal
-
 '''
+
+
+# # Day12
+# enemies = 1
+# def incre_enm():
+#     global enemies
+#     enemies = 100
+#     print(enemies)
+#
+#
+# incre_enm()
+# print(enemies)
