@@ -65,7 +65,9 @@ while continue_coffee:
                        " available resource")
     # TODO-1: take the input from user. handle the report scenario to display the available resource in the machine
     # TODO-2: Calculate if the resource for coffee requested is available and report if insufficient resource in machine
-    if user_input == "report":
+    if user_input == "off":
+        continue_coffee = False
+    elif user_input == "report":
         for key, value in resource.items():
             print(f"{key}: {value}{units[key]}")
     else:
