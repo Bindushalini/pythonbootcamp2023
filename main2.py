@@ -182,3 +182,7 @@ assumptions: infinite number of cards present in deck, no removal
 #
 #
 # mutate([1,2,3,5,8,13])
+
+# Day14
+'''Higher lower game: guess the highest number of followers between 2 people 
+if guessed wrong, program ends, else add the score and continue'''
