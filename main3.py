@@ -27,27 +27,47 @@
 # table.align = "l"
 # print(table)
 # coffemachine in terms of class
-from menu import Menu, MenuItem
-from coffee_maker import CoffeeMaker
-from money_machine import MoneyMachine
+# from menu import Menu, MenuItem
+# from coffee_maker import CoffeeMaker
+# from money_machine import MoneyMachine
+#
+#
+# coffeem = CoffeeMaker()
+# moneyobj = MoneyMachine()
+# continue_coffee = True
+# while continue_coffee:
+#     my_menu = Menu()
+#     user_input = input(f"What is the drink you require today {my_menu.get_items()}. "
+#     f"Type report to know the available resource")
+#     if user_input == "off":
+#         continue_coffee = False
+#     elif user_input == "report":
+#         coffeem.report()
+#         moneyobj.report()
+#     else:
+#         my_order = my_menu.find_drink(user_input)
+#         if my_order is not None:
+#             if coffeem.is_resource_sufficient(my_order) and moneyobj.make_payment(my_order.cost):
+#                     coffeem.make_coffee(my_order)
+#             else:
+#                 continue_coffee = False
 
+#  Day 17
+# creating our own classes
+# class Website:  # pascal case (NewClass) #camelcase (camelCase) #snake_case
+#     def __init__(self, s, name):
+#         self.id = s
+#         self.name = name
+#         self.load = False
+#
+#     def display(self):
+#         print(self.id, self.name)
+#
+#     def start_website(self):
+#         self.load = True
+#
+#
+# u1 = Website(213, "X")
+# u1.display()
+# u1.start_website()
 
-coffeem = CoffeeMaker()
-moneyobj = MoneyMachine()
-continue_coffee = True
-while continue_coffee:
-    my_menu = Menu()
-    user_input = input(f"What is the drink you require today {my_menu.get_items()}. Type report to know the available "
-                       f"resource")
-    if user_input == "off":
-        continue_coffee = False
-    elif user_input == "report":
-        coffeem.report()
-        moneyobj.report()
-    else:
-        my_order = my_menu.find_drink(user_input)
-        if my_order is not None:
-            if coffeem.is_resource_sufficient(my_order) and moneyobj.make_payment(my_order.cost):
-                    coffeem.make_coffee(my_order)
-            else:
-                continue_coffee = False
