@@ -71,3 +71,16 @@
 # u1.display()
 # u1.start_website()
 
+# Day 19
+# from turtle import Turtle, Screen
+#
+# def display():
+#     tim.forward(30)
+#
+# tim = Turtle()
+# my_screen = Screen()
+# my_screen.listen()
+# my_screen.onkey(display, "space")
+# my_screen.exitonclick()
+
+# objects can have different attributes and different operations - state
