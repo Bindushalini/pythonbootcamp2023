@@ -84,3 +84,9 @@
 # my_screen.exitonclick()
 
 # objects can have different attributes and different operations - state
+
+# Day 20:
+# building a snake game which eats food and grows
+# 1. create a snake body
+# 2. move the snake
+# 3. control the snake (different directions)
