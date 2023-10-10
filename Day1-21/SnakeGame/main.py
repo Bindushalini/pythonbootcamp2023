@@ -20,10 +20,12 @@ my_screen.onkey(snake.right, "Right")
 
 
 is_game_on = True
+sleep_amount = 0.005
+sleep_time = 0.06
 
 while is_game_on:
     my_screen.update()
-    time.sleep(0.1)
+    time.sleep(sleep_time)
     snake.move()
     sb.display_score()
     # detect collision from food
@@ -31,6 +33,8 @@ while is_game_on:
         food.refresh()
         snake.extend()
         sb.update_score()
+        if sb.score % 5 == 0:  # fasten the speed after 5 turns
+            sleep_time -= sleep_amount
     # detect collision with wall
     if snake.head.xcor() > 290 or snake.head.xcor() < -290 or snake.head.ycor() > 290 or snake.head.ycor() < -290:
         sb.game_over()
