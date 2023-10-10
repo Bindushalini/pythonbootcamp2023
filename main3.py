@@ -90,3 +90,9 @@
 # 1. create a snake body
 # 2. move the snake
 # 3. control the snake (different directions)
+
+#  Day 21: inheritance, slicing, snake game contd.
+# 4. Detect collision with food
+# 5. Create a score board
+# 6. detect collision with wall
+# 7. detect collision with tail

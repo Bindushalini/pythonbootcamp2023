@@ -7,25 +7,28 @@ DOWN = 270
 LEFT = 180
 RIGHT = 0
 
+
 class Snake:
     def __init__(self):
-        self.snake_list = self.build_body()
+        self.snake_list = []
+        self.build_body()
         self.head = self.snake_list[0]
 
     def build_body(self):
-        list_x = []
         x_pos = 0
         for i in range(3):
-            snake = Turtle()
-            snake.shape("square")
-            snake.penup()
-            snake.resizemode("user")
-            snake.shapesize(0.5, 0.5)
-            snake.color("white")
-            snake.setposition(x_pos, 0)
+            self.build(x_pos, 0)
             x_pos -= SNAKE_POSITION
-            list_x.append(snake)
-        return list_x
+
+    def build(self, at_x_pos, at_y_pos):
+        snake = Turtle()
+        snake.shape("square")
+        snake.penup()
+        snake.resizemode("user")
+        snake.shapesize(0.5, 0.5)
+        snake.color("white")
+        snake.setposition(at_x_pos, at_y_pos)
+        self.snake_list.append(snake)
 
     def move(self):
         for i in range(len(self.snake_list) - 1, 0, -1):
@@ -50,3 +53,5 @@ class Snake:
         if self.head.heading() != LEFT:
             self.head.setheading(RIGHT)
 
+    def extend(self):
+        self.build(self.snake_list[-1].xcor(), self.snake_list[-1].ycor())
