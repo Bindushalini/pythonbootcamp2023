@@ -6,6 +6,8 @@ UP = 90
 DOWN = 270
 LEFT = 180
 RIGHT = 0
+SNAKE_STARTING_SPEED = 0.06
+SNAKE_SPEED_INCR = 0.005
 
 
 class Snake:
@@ -13,6 +15,13 @@ class Snake:
         self.snake_list = []
         self.build_body()
         self.head = self.snake_list[0]
+        self.snake_speed = SNAKE_STARTING_SPEED
+
+    def get_speed(self):
+        return self.snake_speed
+
+    def set_speed(self):
+        self.snake_speed -= SNAKE_SPEED_INCR
 
     def build_body(self):
         x_pos = 0
@@ -55,3 +64,11 @@ class Snake:
 
     def extend(self):
         self.build(self.snake_list[-1].xcor(), self.snake_list[-1].ycor())
+
+    def reset_snake(self):
+        for snakebody in self.snake_list:
+            snakebody.setposition(1000, 1000)
+        self.snake_list.clear()
+        self.build_body()
+        self.head = self.snake_list[0]
+        self.snake_speed = SNAKE_STARTING_SPEED
