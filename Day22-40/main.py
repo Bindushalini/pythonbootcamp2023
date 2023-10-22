@@ -36,31 +36,66 @@
 #     print(data)
 # import csv
 import pandas
-# with open("weather_data.csv") as weather_handle:
-#     data = csv.reader(weather_handle)
-#     temper = [int(x[1]) for x in data if x[1] != 'temp']
-#     print(temper)
-
-data_frame = pandas.read_csv("weather_data.csv")
-# print(data_frame["temp"])
-
-data_dict = data_frame.to_dict()
-# print(data_dict)
-
-temp = data_frame["temp"].to_list()
-# print(temp)
-average = sum(temp)/ len(temp)
-# print(average)
-# print(data_frame["temp"].mean())
-# print(data_frame["temp"].max())
+# # with open("weather_data.csv") as weather_handle:
+# #     data = csv.reader(weather_handle)
+# #     temper = [int(x[1]) for x in data if x[1] != 'temp']
+# #     print(temper)
 #
-# print(data_frame.day[1])
-# get data from row
-# print(data_frame[data_frame.temp == data_frame.temp.max()].temp)
-highest_temp = data_frame[data_frame.temp == data_frame.temp.max()].temp
-# print(highest_temp)
-# print(((data_frame[data_frame.temp == data_frame.temp.max()].temp)*(9/5))+32)
-data_mon = data_frame[data_frame.day == "Monday"]
-print(data_mon.temp[0]*(9/5)+32)
+# data_frame = pandas.read_csv("weather_data.csv")
+# # print(data_frame["temp"])
+#
+# data_dict = data_frame.to_dict()
+# # print(data_dict)
+#
+# temp = data_frame["temp"].to_list()
+# # print(temp)
+# average = sum(temp)/ len(temp)
+# # print(average)
+# # print(data_frame["temp"].mean())
+# # print(data_frame["temp"].max())
+# #
+# # print(data_frame.day[1])
+# # get data from row
+# # print(data_frame[data_frame.temp == data_frame.temp.max()].temp)
+# highest_temp = data_frame[data_frame.temp == data_frame.temp.max()].temp
+# # print(highest_temp)
+# # print(((data_frame[data_frame.temp == data_frame.temp.max()].temp)*(9/5))+32)
+# data_mon = data_frame[data_frame.day == "Monday"]
+# print(data_mon.temp[0]*(9/5)+32)
 
 # creating a data frame
+
+# Day 26:
+# spell out the name from nato phonetic alphabets
+
+# print([i * 2 for i in range(1, 5)])
+# import random
+#
+# names = ["saa", "paa", "laa"]
+# score = {item: random.randint(1, 100) for item in names}
+#
+# high_score = {item: value for item, value in score.items() if value > 65}
+# print(high_score.keys())
+# print(score)
+#
+# sentence = input()
+#
+# list_of_words = sentence.split(" ")
+# my_dict = {words: len(words) for words in list_of_words}
+# print(my_dict)
+#
+# weather_c = eval(input())
+# faren = {key:((value * 9/5) + 32) for key,value in weather_c.items()}
+# print(faren)
+
+# looping over pandas dataframe
+# for key, value in data_frame.items():
+#     print(key)
+#     print(value)
+#
+# # ==> loop through iter rows
+# for index,rows in data_frame.iterrows():
+#     print(index, rows)
+#     print(rows.student)
+#     print(rows.score)
+#
