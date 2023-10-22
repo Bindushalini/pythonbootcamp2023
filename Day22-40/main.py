@@ -102,11 +102,13 @@
 # Day 27: GUI and function arguments
 # unit converter program
 
+import tkinter
+
+
 def button_click():
     # my_label.config(text="button got clicked")
     my_label.config(text=input.get())
 
-import tkinter
 
 window = tkinter.Tk()
 window.title("my gui")
@@ -118,11 +120,9 @@ my_label.pack(side="top")
 button = tkinter.Button(text="click me", command=button_click)
 
 button.pack()
-#entry class
+# entry class
 
 input = tkinter.Entry(width=15)
 input.pack()
-
-
 
 window.mainloop()
