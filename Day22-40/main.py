@@ -35,7 +35,7 @@
 #     data = weather_handle.readlines()
 #     print(data)
 # import csv
-import pandas
+# import pandas
 # # with open("weather_data.csv") as weather_handle:
 # #     data = csv.reader(weather_handle)
 # #     temper = [int(x[1]) for x in data if x[1] != 'temp']
@@ -99,3 +99,30 @@ import pandas
 #     print(rows.student)
 #     print(rows.score)
 #
+# Day 27: GUI and function arguments
+# unit converter program
+
+def button_click():
+    # my_label.config(text="button got clicked")
+    my_label.config(text=input.get())
+
+import tkinter
+
+window = tkinter.Tk()
+window.title("my gui")
+window.minsize(500, 500)
+
+my_label = tkinter.Label(text="I am a label")
+my_label.pack(side="top")
+
+button = tkinter.Button(text="click me", command=button_click)
+
+button.pack()
+#entry class
+
+input = tkinter.Entry(width=15)
+input.pack()
+
+
+
+window.mainloop()
