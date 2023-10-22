@@ -23,7 +23,44 @@
 
 # with open("my_text.txt") as fh:
 #     stri = fh.read()
-#     print(stri)
-with open("my_text.txt", "a") as fh:
-    new_text = "adding text"
-    fh.write(new_text)
+# #     print(stri)
+# with open("my_text.txt", "a") as fh:
+#     new_text = "adding text"
+#     fh.write(new_text)
+
+# day25: csv, pandas
+# guess and learn all the state of US
+#  days of the week and temperature of that day
+# with open("weather_data.csv") as weather_handle:
+#     data = weather_handle.readlines()
+#     print(data)
+# import csv
+import pandas
+# with open("weather_data.csv") as weather_handle:
+#     data = csv.reader(weather_handle)
+#     temper = [int(x[1]) for x in data if x[1] != 'temp']
+#     print(temper)
+
+data_frame = pandas.read_csv("weather_data.csv")
+# print(data_frame["temp"])
+
+data_dict = data_frame.to_dict()
+# print(data_dict)
+
+temp = data_frame["temp"].to_list()
+# print(temp)
+average = sum(temp)/ len(temp)
+# print(average)
+# print(data_frame["temp"].mean())
+# print(data_frame["temp"].max())
+#
+# print(data_frame.day[1])
+# get data from row
+# print(data_frame[data_frame.temp == data_frame.temp.max()].temp)
+highest_temp = data_frame[data_frame.temp == data_frame.temp.max()].temp
+# print(highest_temp)
+# print(((data_frame[data_frame.temp == data_frame.temp.max()].temp)*(9/5))+32)
+data_mon = data_frame[data_frame.day == "Monday"]
+print(data_mon.temp[0]*(9/5)+32)
+
+# creating a data frame
