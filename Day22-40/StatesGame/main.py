@@ -24,10 +24,7 @@ while is_guess_on < 50:
     if answer in name_list:
         matching_row = my_states_data[my_states_data.state == answer]
         x_cord = int(matching_row.x.iloc[0])
-        # x_cord = x_cord.x
         y_cord = int(matching_row.y.iloc[0])
-        # y_cord = y_cord.y
-        print(answer, x_cord, y_cord)
         my_turtle = turtle.Turtle()
         my_turtle.penup()
         my_turtle.hideturtle()
@@ -39,5 +36,4 @@ while is_guess_on < 50:
     is_guess_on += 1
 
 new_frame = pandas.DataFrame(name_list, columns=["Names"])
-print(new_frame)
 new_frame.to_csv("states_to_learn.csv")
