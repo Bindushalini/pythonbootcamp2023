@@ -134,4 +134,24 @@
 #  validation
 # pw generated is copied to clipboard for further usage
 # 3 col X 5 row layout
-#
+
+# Day 30:
+# try:
+#     fh = open("a.txt")
+#     print("x")
+# except FileNotFoundError as e:
+#     # except:
+#     fh = open("a.txt", 'w')
+#     print("creating file")
+# else:
+#     print(fh.read())
+# finally:
+#     raise KeyError("Made up")
+
+height = float(input("h"))
+weight = float(input("w"))
+
+if height > 3:
+    raise ValueError("height is invalid input. Should be below 3 meters")
+bmi = weight / height ** 2
+print(bmi)
