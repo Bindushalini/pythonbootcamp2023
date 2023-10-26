@@ -102,27 +102,36 @@
 # Day 27: GUI and function arguments
 # unit converter program
 
-import tkinter
+# import tkinter
+#
+#
+# def button_click():
+#     # my_label.config(text="button got clicked")
+#     my_label.config(text=input.get())
+#
+#
+# window = tkinter.Tk()
+# window.title("my gui")
+# window.minsize(500, 500)
+#
+# my_label = tkinter.Label(text="I am a label")
+# my_label.pack(side="top")
+#
+# button = tkinter.Button(text="click me", command=button_click)
+#
+# button.pack()
+# # entry class
+#
+# input = tkinter.Entry(width=15)
+# input.pack()
+#
+# window.mainloop()
 
-
-def button_click():
-    # my_label.config(text="button got clicked")
-    my_label.config(text=input.get())
-
-
-window = tkinter.Tk()
-window.title("my gui")
-window.minsize(500, 500)
-
-my_label = tkinter.Label(text="I am a label")
-my_label.pack(side="top")
-
-button = tkinter.Button(text="click me", command=button_click)
-
-button.pack()
-# entry class
-
-input = tkinter.Entry(width=15)
-input.pack()
-
-window.mainloop()
+# day 29: Building a password manager
+# store and generate passwords
+# ask for password input to user or generate new password.
+# after adding store in a text file
+#  validation
+# pw generated is copied to clipboard for further usage
+# 3 col X 5 row layout
+#
