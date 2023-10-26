@@ -148,10 +148,10 @@
 # finally:
 #     raise KeyError("Made up")
 
-height = float(input("h"))
-weight = float(input("w"))
-
-if height > 3:
-    raise ValueError("height is invalid input. Should be below 3 meters")
-bmi = weight / height ** 2
-print(bmi)
+# height = float(input("h"))
+# weight = float(input("w"))
+#
+# if height > 3:
+#     raise ValueError("height is invalid input. Should be below 3 meters")
+# bmi = weight / height ** 2
+# print(bmi)

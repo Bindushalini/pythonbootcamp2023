@@ -9,7 +9,7 @@ screen.addshape("blank_states_img.gif")
 
 turtle.shape("blank_states_img.gif")
 
-print(screen.screensize(500,300))
+print(screen.screensize(500, 300))
 
 my_states_data = pandas.read_csv("50_states.csv")
 name_list = my_states_data.state.to_list()
