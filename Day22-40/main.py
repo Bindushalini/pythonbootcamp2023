@@ -155,3 +155,5 @@
 #     raise ValueError("height is invalid input. Should be below 3 meters")
 # bmi = weight / height ** 2
 # print(bmi)
+
+# Day 31: good project to indepth about pandas and tkinter (Flashcard)
