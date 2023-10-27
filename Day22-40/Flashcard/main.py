@@ -45,8 +45,8 @@ def is_known():
     new_df.to_csv("data/words_to_learn.csv")
     check_correctness()
 
-
 #  --------------------UI -----------------
+
 
 window = Tk()
 
