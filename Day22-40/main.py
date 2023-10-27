@@ -157,3 +157,17 @@
 # print(bmi)
 
 # Day 31: good project to indepth about pandas and tkinter (Flashcard)
+# https://tkinter-docs.readthedocs.io/en/latest/widgets/canvas.html
+# https://www.plus2net.com/python/tkinter-button.php#colourful
+
+#  Day32: automated bday wisher
+# email smtp - smtplib module, simple mail transfer protocol.
+
+# tls - transport layer secuirty - avoids interception of mails by unknown
+# knwd yeil uyae yjwh
+# wpyo xukb ecyk ajbj
+
+# monday motivational quotes via email
+
+# 2 new lines separator between subject and body of mail
+# dat e time -
