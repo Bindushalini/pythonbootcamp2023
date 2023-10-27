@@ -7,7 +7,7 @@ import smtplib
 letter_files = "letter_templates/letter_1.txt"
 letter_file1 = "letter_templates/letter_2.txt"
 letter_file2 = "letter_templates/letter_3.txt"
-my_pass = "knwdyeiluyaeyjwh"
+my_pass = ""
 # 1. Update the birthdays.csv
 
 # 2. Check if today matches a birthday in the birthdays.csv
@@ -26,7 +26,7 @@ for _, x in data_frame.iterrows():
             text[0] = text[0].replace("[NAME]", x["name"])
             text = "".join(text)
             # 4. Send the letter generated in step 3 to that person's email address.
-            from_addr = "bindu239681@gmail.com"
+            from_addr = ""
             to_addr = email_addr
             connect = smtplib.SMTP_SSL("smtp.gmail.com", port=465)
             connect.login(user=from_addr, password=my_pass)
