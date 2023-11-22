@@ -184,16 +184,19 @@ import datetime
 # data = resp.json()['iss_position']['latitude']
 # # data = resp.json()
 # print(data)
-params = {
-    "lat": 12.971599,
-    "lng": 77.594566
-}
-resp1 = requests.get(url="https://api.sunrise-sunset.org/json", params=params)
-resp1.raise_for_status()
-data = resp1.json()
-print(data)
-sunr = int(data["results"]["sunrise"].split(":")[0])
-suns = int(data["results"]["sunset"].split(":")[0])
-
-now = datetime.datetime.now()
-print(now.hour)
+# params = {
+#     "lat": 12.971599,
+#     "lng": 77.594566
+# }
+# resp1 = requests.get(url="https://api.sunrise-sunset.org/json", params=params)
+# resp1.raise_for_status()
+# data = resp1.json()
+# print(data)
+# sunr = int(data["results"]["sunrise"].split(":")[0])
+# suns = int(data["results"]["sunset"].split(":")[0])
+#
+# now = datetime.datetime.now()
+# print(now.hour)
+#
+# day 35
+# twilio API is used to send text messages
