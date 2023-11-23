@@ -1,6 +1,6 @@
 
 import requests
-api_key = "af58968c3f92734b128348a17517d3e6"
+api_key = "*************************"
 parameters = {
     "lat": 12.971599,
     "lon": 77.594566,
@@ -21,4 +21,5 @@ for _ in weather_data_hourly_list[:12]:
 
 if is_rainy_day:
 #     send message using twilio
+    pass
 
