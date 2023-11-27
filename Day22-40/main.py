@@ -200,3 +200,10 @@ import datetime
 #
 # day 35
 # twilio API is used to send text messages
+
+#day 36
+# stock trading news alert
+# 1. monitoring stock price - difference between closing price of 2 days (increase or decrease) , percentage of rise/fall
+# 2. if so, fetch the news related to stock.
+# 3. sends a sms about the fall/rise and news info
+
