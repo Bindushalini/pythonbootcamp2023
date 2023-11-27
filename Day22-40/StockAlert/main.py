@@ -53,7 +53,7 @@ for key, value in short_dict.items():
     percentage = (diff / average) * 100
     prev_val = close_val
 # TODO: if percentage is greater than 5, send a message of latest news about TESLA using twilio
-if percentage > 0.00:
+if percentage > 5.00:
     news_data = requests.get("https://newsapi.org/v2/everything", params=news_params)
     news_data.raise_for_status()
     news_data_val = news_data.json()['articles']
