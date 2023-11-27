@@ -37,7 +37,6 @@ prev_val = 0
 percentage = 0.0
 percentage_gap = ""
 # short_dict = {k: daily_stock_data[k] for k in list(daily_stock_data.keys())[:2]}
-# print(short_dict)
 short_dict = {'2023-11-24': {'1. open': '233.7500', '2. high': '238.7500', '3. low': '232.3300',
                              '4. close': '235.4500', '5. volume': '65125203'},
               '2023-11-22': {'1. open': '242.0400', '2. high': '244.0100',
