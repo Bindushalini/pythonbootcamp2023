@@ -207,3 +207,10 @@ import datetime
 # 2. if so, fetch the news related to stock.
 # 3. sends a sms about the fall/rise and news info
 
+#Day 37: HTPP requests: post, put, delete
+# get - request from external system and receive the response
+#post: give the data to external system and not await response .(post the data into spreadsheet / send data to twitter)
+#put: update data in system
+#delete: external service data delete
+
+# pixela key: user specific
