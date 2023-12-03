@@ -214,3 +214,7 @@ import datetime
 #delete: external service data delete
 
 # pixela key: user specific
+
+#Day 38: Workout tracking using google sheets
+# when the link is opened in browser, user should be able to input the exercises done in natural language
+# The data should be automatically segregate in spreadsheet
