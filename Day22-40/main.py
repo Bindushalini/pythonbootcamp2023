@@ -218,3 +218,10 @@ import datetime
 #Day 38: Workout tracking using google sheets
 # when the link is opened in browser, user should be able to input the exercises done in natural language
 # The data should be automatically segregate in spreadsheet
+
+# Day 39: Cheap flight finder (: capstone project)
+
+# read the google sheet data and finds the cheapest flight (flight price lesser or equal to lowest price)
+# send the notification to user about the flight details
+
+# (tequila Kiwi API for flight data retrieval)
