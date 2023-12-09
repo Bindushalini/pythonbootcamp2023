@@ -225,3 +225,7 @@ import datetime
 # send the notification to user about the flight details
 
 # (tequila Kiwi API for flight data retrieval)
+
+# Day 40:
+# take the user information , store to database (google sheets)
+# for those subscribed users send them latest cheap flight details.

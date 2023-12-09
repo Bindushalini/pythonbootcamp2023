@@ -2,7 +2,7 @@ import random
 import smtplib
 
 #
-#
+#dvxp mjni blfm bgvr
 my_email = "bindu239681@gmail.com"
 my_pass = "knwdyeiluyaeyjwh"
 my_destn_email = "bindu239681@gmail.com"
@@ -10,7 +10,7 @@ my_destn_email = "bindu239681@gmail.com"
 # # connect.starttls()
 # connect.set_debuglevel(2)
 # connect.login(user=my_email, password=my_pass)
-# connect.sendmail(my_email, my_destn_email, msg="Subject: Test mail from python smtp module.\n\n whats up grumpy boy?")
+# connect.sendmail(my_email, my_destn_email, msg="Subject: Test mail from python smtp module.\n\n ")
 # connect.close()
 quotes = []
 with open("quotes.txt", 'r') as fh:
