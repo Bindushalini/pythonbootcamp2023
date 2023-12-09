@@ -2,10 +2,10 @@ import random
 import smtplib
 
 #
-#dvxp mjni blfm bgvr
-my_email = "bindu239681@gmail.com"
-my_pass = "knwdyeiluyaeyjwh"
-my_destn_email = "bindu239681@gmail.com"
+#
+my_email = ""
+my_pass = ""
+my_destn_email = ""
 # connect = smtplib.SMTP_SSL("smtp.gmail.com", port=465)
 # # connect.starttls()
 # connect.set_debuglevel(2)
