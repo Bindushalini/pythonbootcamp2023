@@ -37,7 +37,7 @@ class FlightData:
             "fly_to": code,
             "price_to": price,
             "curr": "USD",
-            "max_stopovers": 0,
+
         }
         get_response = requests.get(url=self.search_endpoint, params=params, headers=self.header)
         get_response_value = get_response.json()
