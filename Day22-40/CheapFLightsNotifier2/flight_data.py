@@ -20,10 +20,10 @@ class FlightData:
         date_val = time.split('T')
         return date_val
 
-    def get_details(self, response):
+    def get_details(self, response, to_name):
         message_data = {
             'from': response["cityFrom"],
-            'to': response["cityTo"],
+            'to': to_name,
             "from_code": response['flyFrom'],
             "to_code": response['flyTo'],
             "price": response['fare']['adults'],
@@ -42,7 +42,7 @@ class FlightData:
         get_response = requests.get(url=self.search_endpoint, params=params, headers=self.header)
         get_response_value = get_response.json()
         if len(get_response_value['data']) > 0:
-            return self.get_details(get_response_value['data'][0])
+            return self.get_details(get_response_value['data'][0], city)
 
 
 

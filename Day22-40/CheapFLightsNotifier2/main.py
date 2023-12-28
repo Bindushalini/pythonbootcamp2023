@@ -45,4 +45,5 @@ else:
     # notify to user sending an alert message
 
     notify_my_data = notify()
-    notify_my_data.send_mail(search)
+    # notify_my_data.send_mail(search)
+    notify_my_data.send_mail_with_image(search)
