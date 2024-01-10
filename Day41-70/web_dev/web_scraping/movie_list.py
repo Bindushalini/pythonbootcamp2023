@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 response = requests.get("https://web.archive.org/web/20200518073855/https://www.empireonline.com/movies/features/best"
                         "-movies-2/")
-# print(response.text)
+# print(response.tex)
 
 movie_soup = BeautifulSoup(response.text, "html.parser")
 # print(movie_soup.get_text())

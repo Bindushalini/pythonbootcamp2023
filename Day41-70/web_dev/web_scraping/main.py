@@ -18,7 +18,6 @@ inside_span_link_tag = soup.select(selector=".sitebit.comhead a")
 unwanted_text_list = [x.get_text() for x in inside_span_link_tag]
 unwanted_link_list = [x.get('href') for x in inside_span_link_tag]
 # print(unwanted_text_list)
-# print(unwanted_link_list)
 text_tag_list = []
 link_list = []
 for a_tags in span_tag:
