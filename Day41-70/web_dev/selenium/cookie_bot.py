@@ -50,4 +50,4 @@ cookies_per_second = driver_obj.find_element(By.ID, "cookiesPerSecond")
 
 print(f"My game created {cookies_per_second.text} per second")
 
-# driver.quit()
+driver_obj.quit()
