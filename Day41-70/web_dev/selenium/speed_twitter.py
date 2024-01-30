@@ -1,10 +1,7 @@
-import os
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 import os
-from selenium.common.exceptions import NoSuchElementException
 
 
 TWITTER_EMAIL = os.environ.get("TWITTER_NAME")
@@ -39,23 +36,22 @@ class InternetSpeedTwitterBot:
         self.down = float(result_container.find_element(By.CLASS_NAME, "download-speed").text)
         self.up = float(result_container.find_element(By.CLASS_NAME, "upload-speed").text)
 
-
     def tweet_at_provider(self):
         if self.down < PROMISED_DOWN or self.up < PROMISED_UP:
             self.driver.get("https://twitter.com/i/flow/login")
             login_user_name = self.driver.find_element(By.NAME, "text")
             login_user_name.send_keys(TWITTER_EMAIL)
-            next_button = self.driver.find_element(By.XPATH, '//*[@id="layers"]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[6]/div').click()
+            self.driver.find_element(By.XPATH, '//*[@id="layers"]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[6]/div').click()
             password = self.driver.find_element(By.NAME, "password")
             password.send_keys(TWITTER_PASS)
-            login_button = self.driver.find_element(By.XPATH, '//*[@id="layers"]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div/div[1]/div/div/div/div').click()
+            self.driver.find_element(By.XPATH, '//*[@id="layers"]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div/div[1]/div/div/div/div').click()
             time.sleep(10)
             tweet_msg = self.driver.find_element(By.XPATH, '//*[@id="react-root"]/div/div/div[2]/main/div/div/div/div/div/div[3]/div/div[2]/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div/div/div/div/div/div/label/div[1]/div/div/div/div/div/div[2]/div/div/div/div')
             time.sleep(5)
             message = f"Hey Internet Service provider! My internet speed is {self.down}down/{self.up}up. Although I pay for {PROMISED_DOWN}down/{PROMISED_UP}up\n Bot"
             tweet_msg.send_keys(message)
             time.sleep(5)
-            post_btn = self.driver.find_element(By.XPATH, '//*[@id="react-root"]/div/div/div[2]/main/div/div/div/div/div/div[3]/div/div[2]/div[1]/div/div/div/div[2]/div[2]/div[2]/div/div/div/div[3]').click()
+            self.driver.find_element(By.XPATH, '//*[@id="react-root"]/div/div/div[2]/main/div/div/div/div/div/div[3]/div/div[2]/div[1]/div/div/div/div[2]/div[2]/div[2]/div/div/div/div[3]').click()
 
 
 my_obj = InternetSpeedTwitterBot()
