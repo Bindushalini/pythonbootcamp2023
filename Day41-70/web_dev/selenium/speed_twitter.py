@@ -16,7 +16,8 @@ class InternetSpeedTwitterBot:
         self.up = 0
         self.down = 0
 
-    def create_driver(self):
+    @staticmethod
+    def create_driver():
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_experimental_option("detach", True)
         driver = webdriver.Chrome(options=chrome_options)
