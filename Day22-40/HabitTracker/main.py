@@ -8,6 +8,7 @@ pixela_endpoint = "https://pixe.la/v1/users/"
 pixela_data = {"token": "yes23111996", "username": NAME, "agreeTermsOfService": "yes", "notMinor": "yes"}
 # response = requests.post(url=pixela_endpoint, json=pixela_data)
 # print(response.json())
+# inserting line
 
 # after creating the profile commented
 # creating a graph
