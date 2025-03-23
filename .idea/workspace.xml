@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b867f8f0-61f8-46b8-8b47-fdeff5b37d4c" name="Changes" comment="?">
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/css/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/css/images/ie/footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/css/images/ie/footer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/css/images/overlay-pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/css/images/overlay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/css/noscript.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/sass/libs/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/sass/libs/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/sass/libs/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/sass/libs/_vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/sass/libs/_vendor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/sass/noscript.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/server1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/css/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/css/images/ie/footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/css/images/ie/footer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/css/images/overlay-pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/css/images/overlay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/css/noscript.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/sass/libs/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/sass/libs/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/sass/libs/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/sass/libs/_vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/sass/libs/_vendor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/sass/noscript.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/my_pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/templates/bindu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/templates/card.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/bday invite website/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/bday invite website/solution.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/css/external.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/css/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/css/inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/css/internal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/css/motivation_meme/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/css/selectors/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/css/selectors/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/css/spanish_colors/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/css/spanish_colors/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/fav_movies/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/lists/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/musical_time_machine/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/musical_time_machine/x.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/nested_lists/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/product_scrapping/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/product_scrapping/x.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/selenium/cookie_bot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/selenium/interaction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/selenium/job_application.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/selenium/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/selenium/property_scrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/selenium/speed_twitter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/solution.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/web_scraping/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/web_scraping/movie.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/web_scraping/movie_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/web_scraping/website.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning-git-github-2421501-01_02b" beforeDir="false" afterPath="$PROJECT_DIR$/../learning-git-github-2421501-01_02b" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="2bb31ff3e91ca52ee88dd10d92378bb3c40ddd82" />
+      </map>
+    </option>
+    <option name="RECENT_COMMON_BRANCH" value="main" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Day41-70/web_dev" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Bindushalini&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ed96923f-58af-4681-976d-41fa28cd16b8" />
+        <option name="url" value="https://github.com/Bindushalini/pythonbootcamp2023.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2UxdCOnsWVwC9QZsC8ImubBveFY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Mydocs/Learning/Python bootcamp/Day41-70/Day41-70",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Mydocs\Learning\Python bootcamp\Day41-70\Day41-70" />
+      <recent name="C:\Mydocs\Learning\Python bootcamp\Day22-40\CheapFLightsNotifier2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Mydocs\Learning\Python bootcamp\Day41-70" />
+      <recent name="C:\Mydocs\Learning\Python bootcamp\Day41-70\web_dev\Flask\static" />
+      <recent name="C:\Mydocs\Learning\Python bootcamp\Day41-70\web_dev\Flask\templates" />
+      <recent name="C:\Mydocs\Learning\Python bootcamp\Day22-40\CheapFLightsNotifier2\images" />
+      <recent name="C:\Mydocs\Learning\Python bootcamp\Day22-40" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main_flights">
+    <configuration name="NutritionTracker" type="PythonConfigurationType" factoryName="Python">
+      <module name="Python bootcamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DB_ENDPOINT" value="https://api.sheety.co/be4a33b189225da014f772119deede3d/myWorkoutTracker/workouts" />
+        <env name="NUTRITION_APP_ID" value="1c4f8856" />
+        <env name="NUTRITION_APP_KEY" value="4e346c26867336880854c121bd1d9462" />
+        <env name="SHEETY_AUTH_HEADER" value="Basic YmluZHVoYzpqb2tlcjEyMw==" />
+        <env name="SHEETY_PASSWORD" value="joker123" />
+        <env name="SHEETY_USERNAME" value="binduhc" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day22-40/NutritionTracker/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Paint" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python bootcamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day1-21" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day1-21/Paint.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_flights" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="Python bootcamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="FLIGHT_CODE_ENDPOINT" value="https://api.tequila.kiwi.com/locations/query" />
+        <env name="FLIGHT_SEARCH_POINT" value="https://api.tequila.kiwi.com/v2/search" />
+        <env name="FROM_NUMBER" value="+12673968373" />
+        <env name="KIWI_API_KEY" value="DDpgQ2L22OR3OgUApWaWY7tE7fVIrOWR" />
+        <env name="SHEETY_ENDP" value="https://api.sheety.co/be4a33b189225da014f772119deede3d/flightDeals/prices/" />
+        <env name="SMS_SID" value="AC3a866fdf44be1a6e55ab2f9b64ee9575" />
+        <env name="SMS_TOKEN" value="78978154aadf869f61f6a88680f4f411" />
+        <env name="TO_NUMBER" value="+917411589981" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day22-40/CheapFlightsNotifier/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_flights_2" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="Python bootcamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="FLIGHT_CODE_ENDPOINT" value="https://api.tequila.kiwi.com/locations/query" />
+        <env name="FLIGHT_SEARCH_POINT" value="https://api.tequila.kiwi.com/v2/search" />
+        <env name="FROM_EMAIL_ID" value="bindu239681@gmail.com" />
+        <env name="FROM_NUMBER" value="+12673968373" />
+        <env name="KIWI_API_KEY" value="DDpgQ2L22OR3OgUApWaWY7tE7fVIrOWR" />
+        <env name="SHEETY_CUST_ENDP" value="https://api.sheety.co/be4a33b189225da014f772119deede3d/customerDetails/cust" />
+        <env name="SHEETY_ENDP" value="https://api.sheety.co/be4a33b189225da014f772119deede3d/flightDeals/prices/" />
+        <env name="SMS_SID" value="AC3a866fdf44be1a6e55ab2f9b64ee9575" />
+        <env name="SMS_TOKEN" value="78978154aadf869f61f6a88680f4f411" />
+        <env name="TO_NUMBER" value="+917411589981" />
+        <env name="USER_PASSWORD" value="dvxpmjniblfmbgvr" />
+        <env name="SHEETY_CUST_POST" value="https://api.sheety.co/be4a33b189225da014f772119deede3d/customerDetails/cust" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day22-40/CheapFLightsNotifier2/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_product_scrap" type="PythonConfigurationType" factoryName="Python">
+      <module name="Python bootcamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="EMAIL" value="bindu239681@gmail.com" />
+        <env name="PASS" value="jwnwefufflkzvzqj" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day41-70/web_dev/product_scrapping/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spotify" type="PythonConfigurationType" factoryName="Python">
+      <module name="Python bootcamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="SPOTIFY_CLIENT_ID" value="15ad39f60b38423687b0c6920798ddbe" />
+        <env name="SPOTIFY_CLIENT_KEY" value="f5e8df93199443139604d9ec033b8c89" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day41-70/web_dev/musical_time_machine/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stock" type="PythonConfigurationType" factoryName="Python">
+      <module name="Python bootcamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="FROM_NUMBER" value="+12673968373" />
+        <env name="NEWS_KEY" value="6c4938a9db894b198de9d789fd73530b" />
+        <env name="SMS_SID" value="AC3a866fdf44be1a6e55ab2f9b64ee9575" />
+        <env name="SMS_TOKEN" value="78978154aadf869f61f6a88680f4f411" />
+        <env name="STOCK_KEY" value="2GX34GXP2KS2GPH0" />
+        <env name="TO_NUMBER" value="+917411589981" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9" />
+      <option name="WORKING_DIRECTORY" value="C:\Mydocs\Learning\Python bootcamp\Day22-40\StockAlert" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day22-40/StockAlert/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="twitter" type="PythonConfigurationType" factoryName="Python">
+      <module name="Python bootcamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="TWITTER_NAME" value="bindu_hc" />
+        <env name="TWITTER_PASS" value="joker23.11" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day41-70/web_dev/selenium/speed_twitter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main_flights" />
+      <item itemvalue="Python.main_flights_2" />
+      <item itemvalue="Python.stock" />
+      <item itemvalue="Python.NutritionTracker" />
+      <item itemvalue="Python.spotify" />
+      <item itemvalue="Python.main_product_scrap" />
+      <item itemvalue="Python.twitter" />
+      <item itemvalue="Python.Paint" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Paint" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b867f8f0-61f8-46b8-8b47-fdeff5b37d4c" name="Changes" comment="" />
+      <created>1693885036708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693885036708</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="?" />
+    <option name="LAST_COMMIT_MESSAGE" value="?" />
+  </component>
+</project>
