@@ -5,14 +5,108 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b867f8f0-61f8-46b8-8b47-fdeff5b37d4c" name="Changes" comment="?">
-      <change beforePath="$PROJECT_DIR$/Day41-70" beforeDir="false" afterPath="$PROJECT_DIR$/Day41-70" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day41-70/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Day41-70/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day41-70/.idea/Python bootcamp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Day41-70/.idea/Python bootcamp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day41-70/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day41-70/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day41-70/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day41-70/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day41-70/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day41-70/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day41-70/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day41-70/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day41-70/web_dev/musical_time_machine/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day41-70/web_dev/musical_time_machine/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/css/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/css/images/ie/footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/css/images/ie/footer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/css/images/overlay-pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/css/images/overlay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/css/noscript.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/sass/libs/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/sass/libs/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/sass/libs/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/sass/libs/_vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/sass/libs/_vendor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/sass/noscript.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/assets/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/name_card/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/server1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/css/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/css/images/ie/footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/css/images/ie/footer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/css/images/overlay-pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/css/images/overlay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/css/noscript.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/sass/libs/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/sass/libs/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/sass/libs/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/sass/libs/_vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/sass/libs/_vendor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/sass/noscript.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/assets/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/my_pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/templates/bindu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/templates/card.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/Flask/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/bday invite website/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/bday invite website/solution.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/css/external.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/css/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/css/inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/css/internal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/css/motivation_meme/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/css/selectors/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/css/selectors/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/css/spanish_colors/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/css/spanish_colors/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/fav_movies/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/lists/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/musical_time_machine/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/musical_time_machine/x.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/nested_lists/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/product_scrapping/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/product_scrapping/x.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/selenium/cookie_bot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/selenium/interaction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/selenium/job_application.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/selenium/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/selenium/property_scrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/selenium/speed_twitter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/solution.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/web_scraping/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/web_scraping/movie.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/web_scraping/movie_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day41-70/web_dev/web_scraping/website.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../learning-git-github-2421501-01_02b" beforeDir="false" afterPath="$PROJECT_DIR$/../learning-git-github-2421501-01_02b" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +121,8 @@
       </map>
     </option>
     <option name="RECENT_COMMON_BRANCH" value="main" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Day41-70/web_dev" />
+    <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -333,7 +428,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main1" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
